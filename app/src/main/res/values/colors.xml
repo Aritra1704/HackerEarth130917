@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/colorBrown</color>
+    <color name="colorPrimaryDark">@color/colorBrown2</color>
+    <color name="colorAccent">@color/colorLightRed</color>
+
+    <color name="colorBrown2">#954C0C</color>
+    <color name="colorBrown">#B56520</color>
+    <color name="colorOrange">#E69138</color>
+    <color name="colorLightRed">#F43737</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorLightGrey">#E2E0E0</color>
+    <color name="colorDarkGrey2">#666666</color>
+    <color name="colorGreen">#009E0F</color>
+    <color name="colorBlue">#2A79E4</color>
+    <color name="colorBlue2">#3E84E6</color>
+    <color name="colorDirtyBlue">#6FA8DC</color>
+    <color name="colorYellow">#FFFF00</color>
+    <color name="colorTransparent">#00000000</color>
+</resources>

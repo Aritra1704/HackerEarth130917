@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/m_150"
+    android:layout_height="@dimen/m_150"
+    android:background="@drawable/custom_loader_dialog"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvLoading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/m_10"
+        android:gravity="center_horizontal"
+        android:text="@string/text_loading"
+        android:textSize="@dimen/t_20" />
+
+    <FrameLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/colorTransparent"
+        android:gravity="center"
+        android:padding="@dimen/m_10">
+
+        <ProgressBar
+            android:id="@+id/cpbLoading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+
+</LinearLayout>
